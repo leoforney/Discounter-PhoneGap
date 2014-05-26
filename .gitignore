@@ -13,4 +13,5 @@ Thumbs.db
 .DS_Store
 
 # PhoneGap generated files
+local.properties
 platforms/
