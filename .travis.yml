@@ -1,0 +1,9 @@
+language: android
+android:
+  components:
+    - build-tools-18.1.0
+    - platform-tools
+before_install:
+  - "npm install phonegap"
+script:
+  - "phonegap build android && mv platforms/android/ant-build/Discounter-debug.apk Discounter.apk"
