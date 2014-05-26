@@ -11,3 +11,6 @@
 # OS generated files
 Thumbs.db
 .DS_Store
+
+# PhoneGap generated files
+platforms/android/CordovaLib/ant-build/
