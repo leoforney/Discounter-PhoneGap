@@ -14,3 +14,4 @@ Thumbs.db
 
 # PhoneGap generated files
 platforms/android/CordovaLib/ant-build/
+platforms/android/ant-build/
