@@ -13,3 +13,4 @@ script:
   - "phonegap build android"
 after_script:
   - "mv platforms/android/ant-build/Discounter-debug.apk Discounter.apk"
+  - "ls"
