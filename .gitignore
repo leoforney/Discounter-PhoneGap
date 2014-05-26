@@ -5,26 +5,9 @@
 # Files for the Dalvik VM
 *.dex
 
-# Java class files
+# Java generated files
 *.class
-
-# Generated files
-bin/
-gen/
-
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
 
 # OS generated files
 Thumbs.db
 .DS_Store
-
-# Folders not needed for PhoneGap
-Android/bin/
-Android/gen/
-Android/assets/
-.cordova/
