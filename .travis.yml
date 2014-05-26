@@ -7,5 +7,9 @@ before_install:
   - "npm install phonegap"
   - "npm install cordova"
   - "phonegap install android"
+before_script:
+  - "android update project --path platforms/android/ --subprojects"
 script:
-  - "phonegap build android && mv platforms/android/ant-build/Discounter-debug.apk Discounter.apk"
+  - "phonegap build android"
+after_script:
+  - "mv platforms/android/ant-build/Discounter-debug.apk Discounter.apk"
