@@ -1,0 +1,5 @@
+APPKEY=9jef0wauit3xece
+APPSECRET=bqwr1xmiujeoubq
+ACCESS_LEVEL=sandbox
+OAUTH_ACCESS_TOKEN=mszmt58qbwhi9hwv
+OAUTH_ACCESS_TOKEN_SECRET=zb8n1dmpq6xm2jn
