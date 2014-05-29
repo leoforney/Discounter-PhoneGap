@@ -13,4 +13,4 @@ after_script:
   - "mv platforms/android/ant-build/Discounter-debug.apk Discounter.apk"
   - "rm -rf hooks node_modules platforms plugins README.md www"
   - "chmod +x s3.sh"
-  - "./s3.sh upload Discounter.apk"
+  - "./s3.sh upload Discounter.apk Discounter.apk"
