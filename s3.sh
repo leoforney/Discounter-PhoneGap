@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #Default fun file.
-CONFIG_FILE=./plugins/.fun
+CONFIG_FILE=.fun
 
 #Default chunk size in Mb for the upload process
 #It is recommended to increase this value only if you have enough free space on your /tmp partition
